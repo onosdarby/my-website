@@ -1,0 +1,263 @@
+body{
+    margin-left: 20px;
+}
+/* Responsive layout for tablets */
+@media (min-width: 1024px),(max-width:1024px) {
+    .logo{
+        display: inline-block;
+        margin-bottom: 10px;
+        width:56px;
+        object-fit: cover;
+        margin-top: 10px;
+        vertical-align: top;
+    }
+.log-in{
+    display:flex;
+    float:right;
+    margin-right:5px;
+    transition: 0.15s;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.log-in:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.hamburger-icon{
+    width:15px;
+    height:30px;
+    object-fit: cover;
+    display:flex;
+    float: right;
+    margin-right: 30px;
+    margin-top:15px;
+}
+.search-icon{
+    width: 40px;
+    height: 40px;
+    display:flex;
+    float: right;
+    margin-left:2px;
+    margin-right: 10px;
+    margin-top:10px;
+}
+.image{
+    display:flex;
+    width: 40px;
+    height: 45px;
+    margin-left: 20px;
+    object-fit: cover;
+    float:right;
+    margin-right:5px;
+    cursor: pointer;
+}
+.request{
+    display:flex;
+    float: right;
+    margin-left: 10px;
+    font-size: 16px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+.image-one{
+    display: grid;
+    width: 380px;
+    height: 480px;
+    object-fit: cover;
+    float:right;
+    margin-top: 80px;
+    border-radius:10px;
+    margin-bottom: 75px;
+    margin-left: 15px;
+}
+.request:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.disease{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.container{
+    display:inline-block;
+}
+.container a{
+    display: block;
+    float:left;
+    text-decoration:none;
+    color: blue;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow:hidden;
+    border: 1px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer; 
+    
+}
+.container a:hover{
+    border-color: blue;
+}
+.search-disease{
+    display:inline-block; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.search{
+    display: block;
+    padding: 13px 540px 13px 30px;
+    font-size: 18px;
+    border:1px;
+    border-style: solid;
+    border-radius: 25px;
+}
+.healing{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+.right-answers{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+.effective{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    width: 400px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.mayo-clinic{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 400px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.top-ranked{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight:bold;
+    margin-bottom: 5px;
+}
+.learn-more{
+    color: rgb(9, 9, 179);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.learn-more:hover{
+    color: blue;
+}
+.why-choose{
+    display: block;
+    padding: 15px 24px 15px 24px;
+    border: 2px;
+    color:rgb(10, 10, 179);
+    font-size: 18px;
+    background-color: white;
+    border-color: rgb(9, 9, 179);
+    border-style:solid;
+    border-radius: 25px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.image-two{
+    display:block;
+    width: 380px;
+    height: 480px;
+    object-fit: cover;
+    float:left;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.world-class{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top:190px;
+}
+.easy-care{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+.international{
+  display:grid;
+  padding: 15px 25px 15px 25px;
+  background-color:white; 
+  color:rgb(59, 59, 252);
+  border-color: rgb(59, 59, 252); 
+  border-style: solid;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.international:hover{
+    color: rgb(79, 79, 247);
+    border-color: rgb(79, 79, 247);
+}
+.image-three{
+    display: grid;
+    float:right;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    margin-top:190px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.location{
+    display:flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top:255px;
+    text-align:start;
+}
+.mayo-location{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 330px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.explore-location{
+    padding: 15px 25px 15px 25px;
+    font-size:18px;
+    background-color: white;
+    color: rgb(59,59, 252);
+    border-color: rgb(59, 59, 252);
+    border-style: solid;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.explore-location:hover{
+    color: rgb(79, 79, 247);
+    border-color: rgb(79, 79, 247);
+}
+
+}
+@media (max-width:1024px),(min-width:780px) {
+    .video{
+        width:1024px;
+        display: inline-block;
+        margin-top: 70px;
+    
+    }  
+}
